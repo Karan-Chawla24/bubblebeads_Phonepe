@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "functions": {
+    "app/api/**/*": {
+      "maxDuration": 30
+    }
+  },
+  "crons": [],
+  "env": {
+    "PRISMA_GENERATE_DATAPROXY": "true",
+    "PRISMA_CLIENT_ENGINE_TYPE": "dataproxy"
+  },
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "outputDirectory": ".next"
+}
